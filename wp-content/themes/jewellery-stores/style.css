@@ -1,0 +1,865 @@
+/*!
+Theme Name: jewellery-store
+Theme URI: http://underscores.me/
+Author: Vlad
+Author URI: #
+Description: jewellery shop
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: jewellery-store
+*/
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+.header {
+	background: #040404;
+}
+
+.header-main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 0;
+}
+
+.header-menu {
+	display: flex;
+	align-items: center;
+}
+
+.header-menu__list {
+	display: flex;
+	gap: 50px;
+}
+
+.header-menu__item {
+	cursor: pointer;
+}
+
+.header-menu__list a {
+	text-decoration: none !important;
+}
+
+.header-menu__item-link {
+	font-family: "Marcellus";
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.header-auth a {
+
+	font-family: "Marcellus";
+	font-size: 14px;
+	font-weight: normal;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.header-items__shops {
+	width: 100px;
+	height: 24px;
+}
+
+.header-main__logo {
+	width: 110px;
+}
+
+.header-items {
+	display: flex;
+}
+
+.main-block {
+	background: #040404;
+	padding-left: 100px;
+}
+
+
+
+.main {
+	color: #fff;
+	font-family: "Lora", serif;
+	width: 470px;
+}
+
+.main-pre__title {
+	font-size: 22px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: italic;
+}
+
+
+.main-title {
+	font-family: "Marcellus";
+	font-size: 54px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	margin: 10px 0 20px 0;
+}
+
+.main-desc {
+	margin-bottom: 35px;
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+}
+
+.main-btns {
+	display: flex;
+	gap: 15px;
+}
+
+.main-btns a,
+.special-offer__btn a {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.main-btn__shop {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	background: #fff;
+	border: none;
+	padding: 10px 15px;
+	text-transform: uppercase;
+	color: #040404;
+	border: solid 1px #fff;
+	cursor: pointer;
+
+}
+
+.main-btn__more {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	background: none;
+	border: solid 1px #fff;
+	padding: 10px 15px;
+	color: #fff;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+
+.main-box {
+	padding-top: 180px;
+	background-image: url("assets/img/madam.png");
+	padding-bottom: 240px;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+
+.featured-products__block {
+	padding-top: 100px;
+	background: #f4f4f4;
+}
+
+
+.featured-products__mark {
+	font-family: "Lora", serif;
+	font-size: 22px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	color: #c3935b;
+	text-align: center;
+	line-height: 1.14;
+	margin-bottom: 10px;
+
+}
+
+.featured-products__title {
+	text-align: center;
+	font-family: "Marcellus";
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	color: #242424;
+	margin-bottom: 10px;
+}
+
+.featured-products__desc {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	text-align: center;
+	color: #777;
+}
+
+
+
+.featured-products__main-item {
+	width: 270px;
+	height: 370px;
+	background-image: url("assets/img/TRISTIQUE.png");
+	display: flex;
+	flex-direction: column;
+	justify-content: end;
+	margin-right: 30px;
+}
+
+.featured-products__main-title {
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.17;
+	color: #000000;
+	text-align: center;
+	width: 160px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+.featured-products__main-desc {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	text-align: center;
+	color: #777;
+	padding-bottom: 20px;
+
+}
+
+.featured-products__main {
+	display: flex;
+	justify-content: space-around;
+}
+
+.featured-products__carrousel {
+	display: flex;
+	gap: 15px;
+}
+
+.featured-products__item-title {
+	font-family: "Marcellus";
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	text-align: center;
+	color: #242424;
+}
+
+
+.featured-products__item-category {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	text-align: center;
+	color: #777;
+
+}
+
+.featured-products__item-title a,
+.featured-products__item-category a {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.featured-products__item-price {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	text-align: center;
+	color: #c3935b;
+
+}
+
+
+.special-offer__block {
+	display: flex;
+	justify-content: space-around;
+	gap: 46px;
+	margin-top: 109px;
+}
+
+.special-offer {
+	background-image: url('assets/img/jewelry.png');
+	background-repeat: no-repeat;
+	width: 576px;
+	height: 334px;
+}
+
+.special-offer__info {
+	padding-left: 270px;
+}
+
+.special-offer-pre__title {
+	font-family: "Lora", serif;
+	font-size: 22px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 1.14;
+	letter-spacing: normal;
+	text-align: left;
+	color: #242424;
+}
+
+
+.special-offer__title {
+	font-family: "Marcellus";
+	font-size: 54px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.2;
+	letter-spacing: normal;
+	text-align: left;
+	color: #242424;
+}
+
+
+.special-offer__desc {
+
+	font-family: "Marcellus";
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.39;
+	letter-spacing: normal;
+	text-align: left;
+	color: #242424;
+	text-transform: uppercase;
+}
+
+.special-offer__btn {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	text-align: left;
+	color: #fff;
+	padding: 10px 15px;
+	background-color: #777;
+	border: none;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+
+.special-offer__featured {
+	width: 255px;
+}
+
+.special-offer__featured__title,
+.special-offer__new-products__title {
+	font-family: "Marcellus";
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.39;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+
+.special-offer__featured-item,
+.special-offer__new-products__item {
+	display: flex;
+	gap: 17px;
+}
+
+.special-offer__featured-item__img,
+.special-offer__new-products__item-img {
+	width: 65px;
+	height: 65px;
+}
+
+.special-offer__featured-item__details-title,
+.special-offer__new-products__item-detail__title {
+	font-family: "Marcellus";
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.14;
+	letter-spacing: normal;
+	text-align: left;
+	color: #242424;
+	margin-bottom: 10px;
+}
+
+.special-offer__new-products__item-detail__title a,
+.special-offer__featured-item__details-title a {
+	color: inherit !important;
+	text-decoration: none !important;
+}
+
+.special-offer__featured-item__details-price,
+.special-offer__new-products__item-detail__price {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: bold;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.14;
+	letter-spacing: normal;
+	text-align: left;
+	color: #c3935b;
+}
+
+.special-offer__new-products {
+	width: 255px;
+}
+
+
+.jewerly-design__block {
+	padding-top: 100px;
+	background: #f4f4f4;
+}
+
+
+.jewerly-design__mark {
+	font-family: "Lora", serif;
+	font-size: 22px;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	line-height: 1.14;
+	letter-spacing: normal;
+	text-align: center;
+	color: #c3935b;
+}
+
+.jewerly-design__title {
+	font-family: "Marcellus";
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.33;
+	letter-spacing: normal;
+	text-align: center;
+	color: #242424;
+	margin: 35px 0;
+
+}
+
+.jewerly-design__desc {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	text-align: center;
+	color: #777;
+
+}
+
+.jewerly-design-carrousel {
+	display: flex;
+	justify-content: space-around;
+	gap: 20px;
+	height: 100vh;
+}
+
+
+.jewerly-design-carrousel-item {
+	display: flex;
+	flex-direction: column;
+	width: 345px;
+	height: 260px;
+	position: relative;
+}
+
+.jewerly-design-carrousel-item__published {
+	padding: 10px 5px;
+	background: #fff;
+	display: block;
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	text-align: center;
+	font-family: "Lora", serif;
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.15;
+	letter-spacing: normal;
+	text-align: center;
+	color: #242424;
+}
+
+
+.jewerly-design-carrousel-item__category {
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: "Lora", serif;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 2.08;
+	letter-spacing: normal;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+
+	background: #c3935b;
+	padding: 2px 10px;
+}
+
+
+.jewerly-design-carrousel-item__title {
+	margin-top: 25px;
+	font-family: "Marcellus";
+	font-size: 24px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.46;
+	letter-spacing: normal;
+	text-align: center;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.jewerly-design-carrousel-item__authorinfo {
+	margin-top: 10px;
+	display: flex;
+	gap: 10px;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+.jewerly-design-carrousel-item__authorinfo-img {
+	width: 20px !important;
+}
+
+
+.jewerly-design-carrousel-item__authorinfo-pre-text,
+.jewerly-design-carrousel-item__authorinfo-name {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: center;
+	color: rgba(119, 119, 119, 0.5)
+}
+
+
+.jewerly-design-carrousel-item__text {
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.79;
+	letter-spacing: normal;
+	color: #777;
+	text-align: center;
+
+}
+
+
+.jewerly-design-carrousel-item__link {
+	margin-top: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Lora", serif;
+	color: #c3935b;
+	text-decoration: none !important;
+}
+
+
+
+.footer {
+	background: #eaeaea;
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+
+
+.footer-information__block-logo {
+	width: 110px;
+}
+
+.footer-information__block-desc {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: #777;
+	width: 269px;
+}
+
+.footer-information__block-details {
+	margin-top: 30px;
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+}
+
+.footer-information__block-details__address,
+.footer-information__block-details__phone,
+.footer-information__block-details__fax {
+
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: #777;
+}
+
+.footer-recent__posts-item-img {
+	width: 75px;
+	height: 65px;
+}
+
+.footer-recent__posts {
+	width: 315px;
+	margin-right: 50px;
+}
+
+.footer-box {
+	display: flex;
+	justify-content: space-around;
+
+}
+
+
+
+.footer-recent__posts-title {
+
+	font-family: "Marcellus";
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.39;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.footer-recent__posts__item {
+	display: flex;
+	gap: 15px;
+	padding-bottom: 15px;
+}
+
+.footer-recent__posts__item-details-title {
+	font-family: "Marcellus";
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: #242424;
+	text-transform: uppercase;
+	margin-bottom: 11px;
+}
+
+
+
+.footer-recent__posts__item-details-date {
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1;
+	letter-spacing: normal;
+	text-align: left;
+	color: #777;
+}
+
+
+.our-stories,
+.userfull-links {
+	width: 170px;
+}
+
+.our-stories__title,
+.userfull-links__title {
+	font-family: "Marcellus";
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.39;
+	letter-spacing: normal;
+	text-align: left;
+	color: #000;
+	margin-bottom: 20px;
+}
+
+.our-stories__item,
+.userfull-link__item {
+	list-style-type: none;
+}
+
+.our-stories__list,
+.userfull-link__list {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.our-stories__item-link,
+.userfull-link__item-link {
+	text-decoration: none;
+	font-family: "Lora", serif;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: 1.43;
+	letter-spacing: normal;
+	text-align: left;
+	color: #777;
+}
+
+.featured-products__carrousel {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousel__wrapper {
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+
+.carousel__inner {
+	display: flex;
+	transition: transform 0.5s ease;
+}
+
+.carousel__arrow {
+	width: 40px;
+	height: 40px;
+	border: none;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: transparent;
+}
+
+.carousel__arrow--left {
+	left: 0;
+	z-index: 10;
+}
+
+.carousel__arrow--right {
+	right: 0;
+	z-index: 10;
+}
+
+.carousel__arrow:before {
+	content: '';
+	display: block;
+	width: 0;
+	height: 0;
+}
+
+.carousel__arrow--left:before {
+	content: url("assets/img/left-arrow.svg");
+}
+
+.carousel__arrow--right:before {
+	content: url("assets/img/arrow-right.svg");
+}
+
+
+
+
+.jewerly-design-carrousel {
+	position: relative;
+	width: 100%;
+}
+
+
+.jewerly-design-carrousel .carousel__inner {
+	gap: 20px;
+}
+
+.carousel__arrow-post--right {
+	top: 120px;
+	right: -20px;
+	z-index: 50;
+}
+
+.carousel__arrow-post--left {
+	top: 120px;
+	left: -50px;
+	z-index: 50;
+}
+
+
+.carousel__arrow-post--left:before {
+	content: url("assets/img/left-arrow.svg");
+}
+
+.carousel__arrow-post--right:before {
+	content: url("assets/img/arrow-right.svg");
+}
